@@ -1,0 +1,29 @@
+Question :
+Take all input from user .
+
+i) Check that all character are string
+ii)  If all char are string then create user in your linux based OS
+iii)  Also create password for same user , password will
+      password will be  ===>>     hello{username}
+Solution:
+
+import os
+
+uname=input("enter your name":)
+check=0
+num=[0,1,2,3,4,5,67,8,9]
+for c is uname
+if c str(num):
+   check=1
+if check==1
+print("invalid user name")
+else:
+psswd="hello"+uname
+os.system("useradd -p " + psswd+" "+uname)
+
+print("you have successfully added one user")
+
+
+
+
+
